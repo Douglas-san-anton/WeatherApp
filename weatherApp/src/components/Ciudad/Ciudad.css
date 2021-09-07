@@ -1,0 +1,21 @@
+.city {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    box-shadow: 0 2px 5px rgb(90, 88, 88);
+    background: linear-gradient(to bottom, #023e7d, #0466c8);
+    color: white;
+    width: 20%;
+    height: 165px;
+    padding-top: 20px;
+    border-radius: 100px;
+}
+
+.info {
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
