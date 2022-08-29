@@ -10,7 +10,7 @@
 
 ## Descripción ✒🖋✏
 
-WeatherApp es un proyecto creado en el recorrido académico de Henry, el cual consta de
-crear un sitio web que refleje el clima de diferentes ciudades y países del mundo.
+WeatherApp es el cual consta de crear un sitio web que refleje el clima
+de diferentes ciudades y países del mundo.
 En la misma vas a poder buscar en tiempo real, borrar y acceder a información más detallada de su
 situación meteorológica!!
