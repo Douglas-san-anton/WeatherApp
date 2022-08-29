@@ -3,6 +3,6 @@ import './About.css'
 
 export default function About() {
   return (
-    <a className='about' href='https://dusandev.netlify.app/'>Portfolio</a>
+    <a className='about' href='https://github.com/Douglas-san-anton'>Conóceme</a>
   );
 }
