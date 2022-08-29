@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    box-shadow: 0 2px 5px rgb(90, 88, 88);
-    background: linear-gradient(to bottom, #023e7d, #0466c8);
+    box-shadow: 0 2px 5px rgb(230, 220, 220);
+    background: transparent;
     color: white;
     width: 20%;
     height: 165px;

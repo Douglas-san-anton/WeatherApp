@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 html {
   background-size: cover;
   width: 100%;
@@ -11,13 +12,6 @@ button {
   border: none;
 }
 
-#closeIcon {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 8px;
-  margin-top: 8px;
-}
-
 .boton__conteiner {
   display: flex;
   justify-content: end;
@@ -28,19 +22,26 @@ button {
 .card {
   margin: 20px;
   width: 18rem;
-  box-shadow: 0 2px 5px rgb(90, 88, 88);
-  background: linear-gradient(to bottom, #0466c8, #023e7d,#0466c8, #023e7d);
+  box-shadow: 0 2px 5px rgb(230, 220, 220);
+  background: transparent;
   border-radius: 50px;
+  transform: scale(1);
 }
 
 .card:hover {
   transform: scale(1.1);
-  transition: transform .5s ease;
+  transition: transform .3s ease;
 }
 
 .card-title {
   color: white;
+  text-shadow: 0px 6px 40px forestgreen;
   font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card-title:hover {
+  color: #1d6be8;
 }
 
 .card-body {
@@ -53,10 +54,9 @@ button {
 
 .temp {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   margin: auto;
-  gap: 50px;
-  color:white;
+  grid-gap: 50px;
+  color: white;
+  text-shadow: 0px 2px 5px forestgreen;
 }

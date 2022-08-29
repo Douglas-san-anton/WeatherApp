@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('https://www.todofondos.net/wp-content/uploads/todofondos-4KparaPC5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .App {
   text-align: center;
 }

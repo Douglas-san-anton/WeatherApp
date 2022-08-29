@@ -12,7 +12,7 @@ export default function SearchBar({onSearch}) {
       <input
         className='search'
         type="text"
-        placeholder="Ciudad..."
+        placeholder="Busca una ciudad.."
         value={city}
         onChange={e => setCity(e.target.value)}
       />

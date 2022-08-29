@@ -1,13 +1,16 @@
 .search {
-    border-radius: 20px;
-    border-color:#023e7d;
+    border-radius: 20px 0 0 20px;
     border: none;
     height: 30px;
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 
 .button {
-    border-radius: 20px;
-    height: 36px;
+    border-radius: 0 20px 20px 0;
+    height: 32px;
     outline: none;
+    background: lightblue;
+    border: none;
+    width: 4.5rem;
+    cursor: pointer;
 }

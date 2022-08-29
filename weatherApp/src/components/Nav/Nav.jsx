@@ -6,7 +6,7 @@ import './Nav.css';
 export default function Nav({onSearch}) {
   return (
     <nav className="navbar">
-      <a className='navbar-brand' href='/'> Weather App 🌤 </a>
+      <a className='navbar-brand' href='/'>Weather App</a>
       <SearchBar onSearch={onSearch}/>
       <About/>
     </nav>
